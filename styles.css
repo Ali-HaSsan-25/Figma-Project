@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+  /* Add your design tokens here, for example: */
+  --font-display: "Inter", sans-serif;
+  --breakpoint-lg: 1024px;
+  /* etc. */
+}
