@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Project</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[aliceblue] m-0 p-0 font-[Trebuchet_MS,sans-serif]">
+
+  <!-- NAVBAR -->
+  <nav class="flex items-center mt-[20px] relative">
+    <!-- Logo -->
+    <div class="ml-[140px] text-[23px] italic font-bold text-[rgb(44,11,74)] z-[2] relative">CHAKRI</div>
+    <!-- Orange Circle -->
+    <div class="absolute top-[24px] left-[140px] h-[33px] w-[33px] bg-[rgb(233,123,45)] rounded-full z-[1]"></div>
+
+    <!-- Mid Links -->
+    <ul class="flex list-none justify-center font-serif pl-[200px] text-[16px]">
+      <li><a href="#" class="block py-[26px] px-[24px] no-underline text-[rgb(44,11,74)] hover:text-red-600">Category</a></li>
+      <li><a href="#" class="block py-[26px] px-[24px] no-underline text-[rgb(44,11,74)] hover:text-red-600">Job</a></li>
+      <li><a href="#" class="block py-[26px] px-[24px] no-underline text-[rgb(44,11,74)] hover:text-red-600">How It Works</a></li>
+      <li><a href="#" class="block py-[26px] px-[24px] no-underline text-[rgb(44,11,74)] hover:text-red-600">Testimonial</a></li>
+    </ul>
+
+    <!-- Right -->
+    <ul class="flex ml-[280px] list-none text-[14px]">
+      <li class="text-[rgb(44,11,74)] mt-[10px] pr-[12px] hover:text-red-600">Register</li>
+      <li>
+        <button class="px-[20px] py-[10px] bg-[rgb(233,123,45)] rounded-[7px] text-white hover:cursor-pointer hover:bg-[lightsalmon]">
+          Sign In
+        </button>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- SECTION -->
+  <section class="flex relative">
+    <!-- LEFT -->
+    <div class="w-1/2 p-[140px] font-serif text-[rgb(44,11,74)]">
+      <h1 class="font-bold text-[55px]">Find Every Job <br> in One Platform</h1>
+
+      <!-- Search Box -->
+      <div class="bg-white pt-[5px] py-[15px] w-[400px] rounded-[12px] mt-[70px] flex items-center">
+        <input type="text" placeholder="Job / Position"
+               class="p-[9px] w-[100px] ml-[15px] bg-transparent border-none text-[16px] outline-none"/>
+        <input type="text" placeholder="Location"
+               class="pl-[18px] w-[100px] ml-[15px]  bg-transparent border-none text-[16px] outline-none"/>
+        <button class="ml-[70px] mt-[7px] px-[20px] py-[10px] bg-[rgb(113,190,113)] text-white rounded-[7px] hover:bg-[rgb(191,221,191)] text-[17px]">
+          Search
+        </button>
+      </div>
+
+      <!-- Recent Search -->
+      <div class="flex text-[16px] mt-[40px]">
+        <div class="text-[chocolate]">Recent Search:</div>
+        <span class="bg-[rgb(231,234,234)] mx-[7px] text-[13px] px-[8px] py-[3px] text-[rgb(84,77,77)]">Design</span>
+        <span class="bg-[rgb(231,234,234)] mx-[7px] text-[13px] px-[8px] py-[3px] text-[rgb(84,77,77)]">UI/UX</span>
+        <span class="bg-[rgb(231,234,234)] mx-[7px] text-[13px] px-[8px] py-[3px] text-[rgb(84,77,77)]">Product</span>
+        <span class="bg-[rgb(231,234,234)] mx-[7px] text-[13px] px-[8px] py-[3px] text-[rgb(84,77,77)]">Graphics</span>
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="relative w-1/2">
+      <!-- Green Shape -->
+      <div class="absolute top-[120px] right-[150px] h-[580px] w-[580px] bg-[lightgreen] z-[1] [clip-path:polygon(61%_9%,82%_24%,93%_48%,81%_76%,54%_90%,30%_82%,11%_58%,16%_31%,36%_14%)]"></div>
+
+      <!-- Man Image -->
+      <img class="absolute top-[55px] right-[220px] w-[430px] h-auto z-[2] object-cover bg-transparent"
+           src="/Happy-man.png" alt="">
+
+      <!-- Card -->
+      <div class="absolute bottom-[120px] right-[220px] px-[20px] py-[12px] rounded-[15px] bg-[aliceblue] z-[3]">
+        <p class="mb-[7px]">20k+ People Find Job !</p>
+        <div class="flex gap-[8px]">
+          <img src="/user1.jpg" alt="user1" class="h-[40px] w-[40px] rounded-full">
+          <img src="/user2.jpg" alt="user2" class="h-[40px] w-[40px] rounded-full">
+          <img src="/user3.jpg" alt="user3" class="h-[40px] w-[40px] rounded-full">
+          <img src="/user4.jpg" alt="user4" class="h-[40px] w-[40px] rounded-full">
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
